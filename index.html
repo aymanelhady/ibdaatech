@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-ar="إبداع تك | استشارات هندسية" data-en="IBDAA TECH | Engineering Consultancy">إبداع تك | استشارات هندسية</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-inner">
+      <img src="Gemini_Generated_Image_6xolbj6xolbj6xol-Photoroom.png" alt="IBDAA TECH" class="preloader-logo" />
+      <div class="preloader-bar"><div class="preloader-fill" id="preloaderFill"></div></div>
+      <p class="preloader-text" data-ar="جارٍ التحميل..." data-en="Loading...">جارٍ التحميل...</p>
+    </div>
+  </div>
+
+  <!-- FLOATING WHATSAPP -->
+  <a href="https://wa.me/966560723523" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-tooltip" data-ar="واتساب" data-en="WhatsApp">واتساب</span>
+  </a>
+
+  <!-- NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo-link">
+        <img src="Gemini_Generated_Image_6xolbj6xolbj6xol-Photoroom.png" alt="IBDAA TECH Logo" class="nav-logo-img" />
+        <div class="nav-logo-text">
+          <span class="nlt-ar">إبداع تك</span>
+          <span class="nlt-en">IBDAA TECH</span>
+        </div>
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#hero"     class="nav-link" data-ar="الرئيسية"  data-en="Home">الرئيسية</a>
+        <a href="#about"    class="nav-link" data-ar="من نحن"    data-en="About">من نحن</a>
+        <a href="#services" class="nav-link" data-ar="خدماتنا"   data-en="Services">خدماتنا</a>
+        <a href="#certs"    class="nav-link" data-ar="شهاداتنا"  data-en="Certificates">شهاداتنا</a>
+        <a href="#video"    class="nav-link" data-ar="فيديو"      data-en="Video">فيديو</a>
+        <a href="#why-us"   class="nav-link" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</a>
+        <a href="#contact"  class="nav-link nav-cta" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle" id="langToggle" aria-label="Switch Language">
+          <span class="lt-ar">AR</span>
+          <span class="lt-sep">/</span>
+          <span class="lt-en">EN</span>
+        </button>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-glow gl1"></div>
+    <div class="hero-glow gl2"></div>
+    <div class="hero-content">
+      <div class="hero-badge" data-ar="استشارات هندسية متخصصة" data-en="Specialized Engineering Consultancy">استشارات هندسية متخصصة</div>
+      <h1 class="hero-headline">
+        <span data-ar="حلول هندسية متكاملة" data-en="Integrated Engineering Solutions">حلول هندسية متكاملة</span><br/>
+        <span class="gold-text" data-ar="للتصميم والإشراف" data-en="for Design &amp; Supervision">للتصميم والإشراف</span>
+      </h1>
+      <p class="hero-sub" data-ar="نقدم حلول تصميم متكاملة في مجالات العمارة والإنشاءات والأنظمة الميكانيكية والكهربائية بما يتوافق مع كود البناء السعودي والمعايير العالمية." data-en="We deliver integrated design solutions in architecture, structures, and MEP systems — fully aligned with Saudi Building Code and international standards.">
+        نقدم حلول تصميم متكاملة في مجالات العمارة والإنشاءات والأنظمة الميكانيكية والكهربائية بما يتوافق مع كود البناء السعودي والمعايير العالمية.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn-primary" data-ar="تواصل معنا الآن" data-en="Contact Us Now">تواصل معنا الآن</a>
+        <a href="#services" class="btn-ghost" data-ar="اكتشف خدماتنا" data-en="Our Services">اكتشف خدماتنا</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-item">
+        <span class="stat-num">+50</span>
+        <span class="stat-label" data-ar="مشروع منجز" data-en="Projects Delivered">مشروع منجز</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat-item">
+        <span class="stat-num">4</span>
+        <span class="stat-label" data-ar="تخصصات هندسية" data-en="Engineering Disciplines">تخصصات هندسية</span>
+      </div>
+      <div class="stat-div"></div>
+      <div class="stat-item">
+        <span class="stat-num">100%</span>
+        <span class="stat-label" data-ar="التزام بالمعايير" data-en="Standards Compliance">التزام بالمعايير</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual sr-el">
+          <div class="about-blob">
+            <img src="Gemini_Generated_Image_6xolbj6xolbj6xol-Photoroom.png" alt="IBDAA TECH" class="about-logo-img" />
+          </div>
+          <div class="about-badge b1" data-ar="الرياض، المملكة العربية السعودية" data-en="Riyadh, Saudi Arabia">الرياض، المملكة العربية السعودية</div>
+          <div class="about-badge b2 gold-badge" data-ar="كود البناء السعودي ✓" data-en="Saudi Building Code ✓">كود البناء السعودي ✓</div>
+        </div>
+        <div class="about-text sr-el">
+          <div class="section-label" data-ar="من نحن" data-en="About Us">من نحن</div>
+          <h2 class="section-title">
+            <span data-ar="إلى أين نتجه..؟" data-en="Where We're Headed..?">إلى أين نتجه..؟</span><br/>
+            <span class="gold-text" data-ar="الرؤية" data-en="Our Vision">الرؤية</span>
+          </h2>
+          <p class="about-desc" data-ar="أن نكون شريكًا هندسيًا موثوقًا في تقديم حلول مبتكرة تدعم جودة واستدامة المشاريع في المملكة العربية السعودية." data-en="To be a trusted engineering partner delivering innovative solutions that support the quality and sustainability of projects in the Kingdom of Saudi Arabia.">
+            أن نكون شريكًا هندسيًا موثوقًا في تقديم حلول مبتكرة تدعم جودة واستدامة المشاريع في المملكة العربية السعودية.
+          </p>
+          <div class="mission-card">
+            <div class="mission-icon">🎯</div>
+            <div>
+              <h3 data-ar="رسالتنا" data-en="Our Mission">رسالتنا</h3>
+              <p data-ar="تقديم خدمات هندسية احترافية تعتمد على التكامل والدقة لتحقيق أفضل قيمة فنية واقتصادية للمشاريع." data-en="Providing professional engineering services based on integration and precision to achieve the best technical and economic value for every project.">
+                تقديم خدمات هندسية احترافية تعتمد على التكامل والدقة لتحقيق أفضل قيمة فنية واقتصادية للمشاريع.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services section-pad dark-section" id="services">
+    <div class="sec-glow sg1"></div>
+    <div class="sec-glow sg2"></div>
+    <div class="container">
+      <div class="section-header centered sr-el">
+        <div class="section-label light" data-ar="خدماتنا" data-en="Our Services">خدماتنا</div>
+        <h2 class="section-title light" data-ar="ماذا نقدم لك..؟" data-en="What We Offer..?">ماذا نقدم لك..؟</h2>
+        <p class="section-sub" data-ar="نغطي جميع تخصصات التصميم الهندسي تحت سقف واحد بمنهجية متكاملة." data-en="We cover all engineering design disciplines under one roof with a fully integrated methodology.">نغطي جميع تخصصات التصميم الهندسي تحت سقف واحد بمنهجية متكاملة.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card sr-el" data-delay="0">
+          <div class="svc-icon-wrap"><span class="svc-emoji">🏛️</span></div>
+          <h3 data-ar="التصميم المعماري" data-en="Architectural Design">التصميم المعماري</h3>
+          <p data-ar="حلول معمارية تجمع بين الوظيفة والجمال، بدءًا من الفكرة وحتى المخططات التنفيذية." data-en="Architectural solutions balancing function and aesthetics, from concept to execution drawings.">حلول معمارية تجمع بين الوظيفة والجمال، بدءًا من الفكرة وحتى المخططات التنفيذية.</p>
+          <div class="svc-bar"></div>
+        </div>
+        <div class="service-card sr-el" data-delay="120">
+          <div class="svc-icon-wrap"><span class="svc-emoji">⚙️</span></div>
+          <h3 data-ar="التصميم الإنشائي" data-en="Structural Design">التصميم الإنشائي</h3>
+          <p data-ar="تصميم وتحليل المنشآت الخرسانية والمعدنية وفق أحدث الأكواد والمعايير." data-en="Design and analysis of concrete and steel structures per the latest codes and standards.">تصميم وتحليل المنشآت الخرسانية والمعدنية وفق أحدث الأكواد والمعايير.</p>
+          <div class="svc-bar"></div>
+        </div>
+        <div class="service-card sr-el" data-delay="240">
+          <div class="svc-icon-wrap"><span class="svc-emoji">🌡️</span></div>
+          <h3 data-ar="التصميم الميكانيكي" data-en="Mechanical Design">التصميم الميكانيكي</h3>
+          <p data-ar="تصميم أنظمة HVAC (تدفئة، تهوية، وتكييف) والسباكة ومكافحة الحريق." data-en="Design of HVAC (heating, ventilation, A/C), plumbing, and fire suppression systems.">تصميم أنظمة HVAC (تدفئة، تهوية، وتكييف) والسباكة ومكافحة الحريق.</p>
+          <div class="svc-bar"></div>
+        </div>
+        <div class="service-card sr-el" data-delay="360">
+          <div class="svc-icon-wrap"><span class="svc-emoji">⚡</span></div>
+          <h3 data-ar="التصميم الكهربائي" data-en="Electrical Design">التصميم الكهربائي</h3>
+          <p data-ar="تصميم أنظمة القوى والإنارة والتيار الخفيف." data-en="Design of power systems, lighting, and low-current networks.">تصميم أنظمة القوى والإنارة والتيار الخفيف.</p>
+          <div class="svc-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="certs section-pad" id="certs">
+    <div class="container">
+      <div class="section-header centered sr-el">
+        <div class="section-label" data-ar="اعتماداتنا" data-en="Our Credentials">اعتماداتنا</div>
+        <h2 class="section-title" data-ar="شهاداتنا ورخصنا" data-en="Certificates &amp; Licenses">شهاداتنا ورخصنا</h2>
+        <p class="section-sub dark-sub" data-ar="معتمدون رسميًا ومرخصون من الجهات السعودية المختصة." data-en="Officially accredited and licensed by the relevant Saudi authorities.">معتمدون رسميًا ومرخصون من الجهات السعودية المختصة.</p>
+      </div>
+      <div class="swiper certs-swiper sr-el">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="cert-card">
+              <div class="cert-img-wrap">
+                <img src="cert1.jpg" alt="Commercial Register" loading="lazy" />
+                <div class="cert-overlay"><span>🔍</span></div>
+              </div>
+              <p class="cert-label" data-ar="السجل التجاري" data-en="Commercial Register">السجل التجاري</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cert-card">
+              <div class="cert-img-wrap">
+                <img src="cert2.jpg" alt="SCE License" loading="lazy" />
+                <div class="cert-overlay"><span>🔍</span></div>
+              </div>
+              <p class="cert-label" data-ar="رخصة هيئة المهندسين" data-en="SCE License">رخصة هيئة المهندسين</p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="cert-card">
+              <div class="cert-img-wrap">
+                <img src="cert3.jpg" alt="National Address" loading="lazy" />
+                <div class="cert-overlay"><span>🔍</span></div>
+              </div>
+              <p class="cert-label" data-ar="العنوان الوطني" data-en="National Address">العنوان الوطني</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next certs-next"></div>
+        <div class="swiper-button-prev certs-prev"></div>
+        <div class="swiper-pagination certs-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO -->
+  <section class="video-section dark-section section-pad" id="video">
+    <div class="sec-glow sg3"></div>
+    <div class="container">
+      <div class="section-header centered sr-el">
+        <div class="section-label light" data-ar="تعرف علينا" data-en="Get to Know Us">تعرف علينا</div>
+        <h2 class="section-title light" data-ar="مكتبنا ومشاريعنا" data-en="Our Office &amp; Projects">مكتبنا ومشاريعنا</h2>
+        <p class="section-sub" data-ar="شاهد كيف نتعامل مع مشاريعنا الهندسية باحترافية عالية." data-en="See how we handle engineering projects with the highest professionalism.">شاهد كيف نتعامل مع مشاريعنا الهندسية باحترافية عالية.</p>
+      </div>
+      <div class="video-wrapper sr-el">
+        <div class="video-frame-shell">
+          <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+            <iframe
+              id="js_video_iframe"
+              src="https://jumpshare.com/embed/cItCmScrCzlaaSeVgk9g"
+              frameborder="0"
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us section-pad" id="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-text sr-el">
+          <div class="section-label" data-ar="لماذا نحن" data-en="Why Us">لماذا نحن</div>
+          <h2 class="section-title" data-ar="أين تبدأ مشاكل المشاريع؟" data-en="Where Do Project Problems Start?">أين تبدأ مشاكل المشاريع؟</h2>
+          <p class="why-desc" data-ar="المشاكل لا تبدأ في التنفيذ، بل في التصميم! نحن نبدأ بتكامل جميع التخصصات منذ المرحلة الأولى لضمان:" data-en="Problems don't start at execution — they start in the design phase! We integrate all disciplines from the very first stage to guarantee:">
+            المشاكل لا تبدأ في التنفيذ، بل في التصميم! نحن نبدأ بتكامل جميع التخصصات منذ المرحلة الأولى لضمان:
+          </p>
+          <ul class="why-list">
+            <li class="why-item sr-el"><span class="why-check">✓</span><span data-ar="تقليل التعارضات بين التخصصات" data-en="Reducing inter-discipline clashes">تقليل التعارضات بين التخصصات</span></li>
+            <li class="why-item sr-el" style="transition-delay:.15s"><span class="why-check">✓</span><span data-ar="تحسين كفاءة التصميم وتوفير التكاليف" data-en="Improving design efficiency and cutting costs">تحسين كفاءة التصميم وتوفير التكاليف</span></li>
+            <li class="why-item sr-el" style="transition-delay:.3s"><span class="why-check">✓</span><span data-ar="تقديم حلول قابلة للتنفيذ ومتوافقة مع المعايير" data-en="Delivering implementable, standards-compliant solutions">تقديم حلول قابلة للتنفيذ ومتوافقة مع المعايير</span></li>
+          </ul>
+          <a href="#contact" class="btn-primary" data-ar="ابدأ مشروعك معنا" data-en="Start Your Project">ابدأ مشروعك معنا</a>
+        </div>
+        <div class="why-cards sr-el">
+          <div class="wc-item">
+            <div class="wc-icon">🔄</div>
+            <div class="wc-body">
+              <h4 data-ar="تكامل كامل" data-en="Full Integration">تكامل كامل</h4>
+              <p data-ar="جميع التخصصات تعمل معًا" data-en="All disciplines work in sync">جميع التخصصات تعمل معًا</p>
+            </div>
+          </div>
+          <div class="wc-item">
+            <div class="wc-icon">📐</div>
+            <div class="wc-body">
+              <h4 data-ar="دقة في التصميم" data-en="Design Precision">دقة في التصميم</h4>
+              <p data-ar="تفاصيل دقيقة في كل مخطط" data-en="Precise details in every drawing">تفاصيل دقيقة في كل مخطط</p>
+            </div>
+          </div>
+          <div class="wc-item">
+            <div class="wc-icon">🏆</div>
+            <div class="wc-body">
+              <h4 data-ar="جودة موثوقة" data-en="Trusted Quality">جودة موثوقة</h4>
+              <p data-ar="معايير دولية وسعودية" data-en="International &amp; Saudi standards">معايير دولية وسعودية</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section-pad dark-section" id="contact">
+    <div class="sec-glow sg4"></div>
+    <div class="container">
+      <div class="section-header centered sr-el">
+        <div class="section-label light" data-ar="تواصل معنا" data-en="Contact Us">تواصل معنا</div>
+        <h2 class="section-title light">
+          <span data-ar="لديك مشروع؟ .." data-en="Have a Project?..">لديك مشروع؟ ..</span><br/>
+          <span class="gold-text" data-ar="دعنا نحوله إلى واقع" data-en="Let Us Make It Reality">دعنا نحوله إلى واقع</span>
+        </h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-left sr-el">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <div class="info-item">
+              <div class="info-icon">📞</div>
+              <div>
+                <span class="info-label" data-ar="الهاتف" data-en="Phone">الهاتف</span>
+                <a href="tel:0560723523" class="info-val">0560723523</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">✉️</div>
+              <div>
+                <span class="info-label" data-ar="البريد الإلكتروني" data-en="Email">البريد الإلكتروني</span>
+                <a href="mailto:ipdateck@gmail.com" class="info-val">ipdateck@gmail.com</a>
+              </div>
+            </div>
+            <div class="info-item">
+              <div class="info-icon">📍</div>
+              <div>
+                <span class="info-label" data-ar="العنوان" data-en="Address">العنوان</span>
+                <span class="info-val" data-ar="الرياض - حي ظهرة البديعة - شارع حمزة بن عبد المطلب" data-en="Riyadh - Dhahrat Al Badeah - Hamza Ibn Abdul Mutalib St.">الرياض - حي ظهرة البديعة - شارع حمزة بن عبد المطلب</span>
+              </div>
+            </div>
+          </div>
+          <!-- Social -->
+          <div class="social-section">
+            <p class="social-title" data-ar="تابعنا على" data-en="Follow Us On">تابعنا على</p>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/IbdaaTech" class="social-icon si-fb" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+              </a>
+              <a href="https://www.instagram.com/ibdaa_tech" class="social-icon si-ig" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+              </a>
+              <a href="https://www.snapchat.com/add/ibdaa_tech" class="social-icon si-sc" aria-label="Snapchat" target="_blank" rel="noopener noreferrer">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.166 2C8.756 2 7.167 4.235 7.167 6.5c0 .46.053 1.02.053 1.02-.235.117-.637.235-1.1.235-.282 0-.565-.047-.8-.14l-.047-.023-.023.023c-.047.14-.07.282-.07.423 0 .564.353.987.847 1.103.07.023.165.047.26.047.117 0 .235-.024.353-.047l.023.047c-.047.4-.7 2.822-3.663 3.503l-.047.023v.047c0 .047.023.14.117.235.47.47 2.023.8 4.703 1.06.118.26.33.682.354 1.15v.023l.023.024c.094.07.423.258.94.258.518 0 .87-.164.94-.234l.023-.024v-.023c.047-.47.26-.87.354-1.15 2.68-.26 4.234-.59 4.703-1.06.094-.094.118-.188.118-.235v-.047l-.047-.023c-2.963-.68-3.616-3.103-3.663-3.503l.023-.047c.118.023.236.047.354.047.094 0 .188-.024.258-.047.494-.116.847-.54.847-1.103 0-.141-.023-.282-.07-.423l-.023-.023-.047.023a2.04 2.04 0 01-.8.14c-.463 0-.865-.118-1.1-.235 0 0 .053-.56.053-1.02C16.833 4.235 15.576 2 12.166 2z"/></svg>
+              </a>
+            </div>
+          </div>
+          <!-- Map -->
+          <div class="map-placeholder">
+            <div class="map-inner">
+              <div class="map-pin-anim">
+                <span class="map-ping"></span>
+                <span>📍</span>
+              </div>
+              <p data-ar="الرياض - حي ظهرة البديعة" data-en="Riyadh - Dhahrat Al Badeah">الرياض - حي ظهرة البديعة</p>
+              <span class="map-note" data-ar="سيتم تفعيل الخريطة قريبًا" data-en="Map integration coming soon">سيتم تفعيل الخريطة قريبًا</span>
+            </div>
+            <!--
+            To activate Google Maps: remove the map-inner div above and uncomment below,
+            replacing YOUR_EMBED_URL with your actual Google Maps embed URL.
+            <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+            -->
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-wrap sr-el">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fullName" data-ar="الاسم الكامل" data-en="Full Name">الاسم الكامل</label>
+                <input type="text" id="fullName" name="from_name"
+                  data-placeholder-ar="أدخل اسمك الكامل" data-placeholder-en="Enter your full name"
+                  placeholder="أدخل اسمك الكامل" autocomplete="name" />
+                <span class="field-error" id="err-name"></span>
+              </div>
+              <div class="form-group">
+                <label for="phone" data-ar="رقم الهاتف" data-en="Phone">رقم الهاتف</label>
+                <input type="tel" id="phone" name="from_phone"
+                  data-placeholder-ar="05XXXXXXXX" data-placeholder-en="05XXXXXXXX"
+                  placeholder="05XXXXXXXX" autocomplete="tel" />
+                <span class="field-error" id="err-phone"></span>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="email" data-ar="البريد الإلكتروني" data-en="Email Address">البريد الإلكتروني</label>
+              <input type="email" id="email" name="from_email"
+                data-placeholder-ar="example@email.com" data-placeholder-en="example@email.com"
+                placeholder="example@email.com" autocomplete="email" />
+              <span class="field-error" id="err-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="service" data-ar="نوع الخدمة" data-en="Service Type">نوع الخدمة</label>
+              <select id="service" name="service_type">
+                <option value="" disabled selected data-ar="اختر نوع الخدمة" data-en="Select a service">اختر نوع الخدمة</option>
+                <option data-ar="التصميم المعماري" data-en="Architectural Design">التصميم المعماري</option>
+                <option data-ar="التصميم الإنشائي" data-en="Structural Design">التصميم الإنشائي</option>
+                <option data-ar="التصميم الميكانيكي" data-en="Mechanical Design">التصميم الميكانيكي</option>
+                <option data-ar="التصميم الكهربائي" data-en="Electrical Design">التصميم الكهربائي</option>
+                <option data-ar="جميع الخدمات" data-en="All Services">جميع الخدمات</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message" data-ar="تفاصيل المشروع" data-en="Project Details">تفاصيل المشروع</label>
+              <textarea id="message" name="message" rows="4"
+                data-placeholder-ar="أخبرنا عن مشروعك..." data-placeholder-en="Tell us about your project..."
+                placeholder="أخبرنا عن مشروعك..."></textarea>
+              <span class="field-error" id="err-message"></span>
+            </div>
+            <button type="submit" class="btn-primary btn-full" id="submitBtn">
+              <span class="btn-label" data-ar="إرسال الرسالة" data-en="Send Message">إرسال الرسالة</span>
+              <svg class="btn-arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+              <span class="btn-spinner" id="btnSpinner" aria-hidden="true"></span>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <span data-ar="✅ تم إرسال رسالتك بنجاح! سنتواصل معك قريبًا." data-en="✅ Message sent successfully! We'll be in touch soon.">✅ تم إرسال رسالتك بنجاح! سنتواصل معك قريبًا.</span>
+            </div>
+            <div class="form-error-msg" id="formError">
+              <span data-ar="⚠️ حدث خطأ أثناء الإرسال. يرجى المحاولة مرة أخرى." data-en="⚠️ Something went wrong. Please try again.">⚠️ حدث خطأ أثناء الإرسال. يرجى المحاولة مرة أخرى.</span>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <img src="Gemini_Generated_Image_6xolbj6xolbj6xol-Photoroom.png" alt="IBDAA TECH" class="footer-logo-img" />
+        <div>
+          <span class="fl-ar">إبداع تك</span>
+          <span class="fl-sep"> | </span>
+          <span class="fl-en">IBDAA TECH</span>
+        </div>
+      </div>
+      <p class="footer-copy" data-ar="جميع الحقوق محفوظة - شركة إبداع تك للاستشارات الهندسية © 2026" data-en="All Rights Reserved — IBDAA TECH Engineering Consultancy © 2026">
+        جميع الحقوق محفوظة - شركة إبداع تك للاستشارات الهندسية © 2026
+      </p>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
