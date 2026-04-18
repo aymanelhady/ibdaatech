@@ -229,15 +229,14 @@
       </div>
       <div class="video-wrapper sr-el">
         <div class="video-frame-shell">
-          <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+          <div class="vimeo-ratio">
             <iframe
-              id="js_video_iframe"
-              src="https://jumpshare.com/embed/cItCmScrCzlaaSeVgk9g"
+              src="https://player.vimeo.com/video/1184410449?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
               frameborder="0"
-              webkitallowfullscreen
-              mozallowfullscreen
-              allowfullscreen
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+              allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              title="Ibdaateck"
+              style="position:absolute;top:0;left:0;width:100%;height:100%;">
             </iframe>
           </div>
         </div>
@@ -342,22 +341,17 @@
             </div>
           </div>
           <!-- Map -->
-          <div class="map-placeholder">
-            <div class="map-inner">
-              <div class="map-pin-anim">
-                <span class="map-ping"></span>
-                <span>📍</span>
-              </div>
-              <p data-ar="الرياض - حي ظهرة البديعة" data-en="Riyadh - Dhahrat Al Badeah">الرياض - حي ظهرة البديعة</p>
-              <span class="map-note" data-ar="سيتم تفعيل الخريطة قريبًا" data-en="Map integration coming soon">سيتم تفعيل الخريطة قريبًا</span>
-            </div>
-            <!--
-            To activate Google Maps: remove the map-inner div above and uncomment below,
-            replacing YOUR_EMBED_URL with your actual Google Maps embed URL.
-            <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL"
-              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+          <div class="map-placeholder map-live">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d226.76478710835434!2d46.63000027228363!3d24.581029772615466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f1b15bf5c22f9%3A0xfd07cdd2f5514b11!2z2LTYsdmD2Kkg2KfYqNiv2KfYuSDYqtmDINmE2YTYp9iz2KrYtNin2LHYp9iqINin2YTZh9mG2K_Ys9mK2Yc!5e0!3m2!1sen!2seg!4v1776536701937!5m2!1sen!2seg"
+              width="100%"
+              height="100%"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="IBDAA TECH Location">
             </iframe>
-            -->
           </div>
         </div>
 
@@ -442,6 +436,7 @@
   <!-- EmailJS SDK -->
   <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://player.vimeo.com/api/player.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
