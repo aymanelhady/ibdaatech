@@ -22,9 +22,9 @@
   'use strict';
 
   /* ── CONFIG — fill these three values ─────────────── */
-  var EMAILJS_PUBLIC_KEY   = 'YOUR_PUBLIC_KEY';      // e.g. 'abc123XYZ'
-  var EMAILJS_SERVICE_ID   = 'YOUR_SERVICE_ID';      // e.g. 'service_ibdaa'
-  var EMAILJS_TEMPLATE_ID  = 'YOUR_TEMPLATE_ID';     // e.g. 'template_contact'
+  var EMAILJS_PUBLIC_KEY   = 'SypLvQqDB9-M6UylM';      // e.g. 'abc123XYZ'
+  var EMAILJS_SERVICE_ID   = 'service_d4wfsrd';      // e.g. 'service_ibdaa'
+  var EMAILJS_TEMPLATE_ID  = 'template_oaeo0cl';     // e.g. 'template_contact'
   var TO_EMAIL             = 'ipdateck@gmail.com';   // recipient (also set in template)
   /* ─────────────────────────────────────────────────── */
 
